@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Все жанры{% endblock %}
+{% block content %}
+    <p class="h2">Все жанры</p>
+    {% include "base/alphabet_anchor_links.html" %}
+    {% if genres %}
+        <table class="table table-hover table-striped">
+            <thead>
+                <tr>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for genre in genres %}
+                    {% ifchanged genre.get_first_letter %}<tr><td><h4 id="{{ genre.get_first_letter }}">{{ genre.get_first_letter }}</h4></td></tr>{% endifchanged %}
+                    <tr>
+                        <td><a href="{{ genre.get_absolute_url }}">{{ genre }}</a></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% endif %}
+{% endblock %}

@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Все книги жанра {{ genre }}{% endblock %}
+{% block content %}
+    <p class="h2">Жанр: <a href="{{ request.path }}">{{ genre }}</a></p>
+    {% if books_not_found %}
+        <p class="h4">{{ books_not_found }}</p>
+    {% endif %}
+    {% if books %}
+        <table class="books-table table table-hover table-striped">
+            <thead>
+                <tr>
+                    <th class="hide-on-small-screen"></th>
+                    <th>Книга</th>
+                    <th>Жанры</th>
+                    <th>Оценка</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for book in books %}
+                <tr>
+                    <td class="hide-on-small-screen">{% if book.cover %}<p style="text-align: center;"><img src="{{ book.cover.url }}" alt="cover" style="max-height: 100px;"></p>{% endif %}</td>
+                    <td><a data-toggle="tooltip" data-placement="bottom" title="{{ book.description }}" href="{{ book.get_absolute_url }}">{{ book }}</a></td>
+                    <td>
+                        {% for genre in book.genre.all %}
+                            <a href="{{ genre.get_absolute_url }}">{{ genre }}</a>;
+                        {% endfor %}
+                    </td>
+                    <td>{{ book.get_rating }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% endif %}
+{% endblock %}
+
+{% block jquery %}
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+{% endblock %}

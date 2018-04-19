@@ -1,0 +1,7 @@
+{% if chapter %}
+<p style="text-align: center">
+    {% if chapter.prev_chapter %}<a href="{{ chapter.prev_chapter.get_absolute_url }}"><<<</a>{% endif %}
+    {% if book %}<a href="{{  book.get_absolute_url }}">Оглавление</a>{% endif %}
+    {% if chapter.next_chapter %}<a href="{{ chapter.next_chapter.get_absolute_url }}">>>></a>{% endif %}
+</p>
+{% endif %}

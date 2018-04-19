@@ -1,0 +1,8 @@
+{% if book %}
+    {% if not user_has_voted %}
+        ( Ваша оценка:
+        {% for i in "12345" %}
+            <a href="{{ book.get_absolute_url }}/vote/{{ i }}">{{ i }}</a>
+        {% endfor %})
+    {% endif %}
+{% endif %}

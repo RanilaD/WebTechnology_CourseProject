@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="54d96166-bde2-4bef-9e68-090e4ba4f275" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/WebTechnology_Course$manage.coverage" NAME="manage Coverage Results" MODIFIED="1508161686633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="db.sqlite3" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebTechnology_Course/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="e#106#381#0" expanded="false" />
+                <element signature="e#567#975#0" expanded="false" />
+                <element signature="e#752#818#0" expanded="false" />
+                <element signature="e#1246#2293#0" expanded="false" />
+                <element signature="e#2333#3172#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebTechnology_Course/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1394">
+              <caret line="249" column="30" lean-forward="false" selection-start-line="249" selection-start-column="30" selection-end-line="249" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+                <element signature="e#731#818#0" expanded="false" />
+                <element signature="e#1970#2636#0" expanded="false" />
+                <element signature="e#2664#2761#0" expanded="false" />
+                <element signature="e#2804#5349#0" expanded="false" />
+                <element signature="e#5395#6765#0" expanded="false" />
+                <element signature="e#6812#7609#0" expanded="false" />
+                <element signature="e#7637#8366#0" expanded="false" />
+                <element signature="e#8393#9209#0" expanded="false" />
+                <element signature="e#10462#11100#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="context_processors.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebTechnology_Course/core/context_processors.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebTechnology_Course/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebTechnology_Course/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebTechnology_Course/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>breadcrumbs-af</find>
+      <find>breadcrumbs-a</find>
+      <find>contac</find>
+      <find>hidden</find>
+      <find>breadcrumbs-wr</find>
+      <find>ForeignObject</find>
+      <find>BookIns</find>
+      <find>form</find>
+      <find>@media</find>
+      <find>books-table</find>
+      <find>Logo</find>
+      <find>navbar</find>
+      <find>input-group</find>
+      <find>main-side</find>
+      <find>.main-si</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/static/scripts/sidebar.js" />
+        <option value="$PROJECT_DIR$/WebTechnology_Course/account/RegistrationForm.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/WebTechnology_Course/forms/ContactForm.py" />
+        <option value="$PROJECT_DIR$/WebTechnology_Course/forms/contact_form.py" />
+        <option value="$PROJECT_DIR$/templates/account/login_modal.html" />
+        <option value="$PROJECT_DIR$/templates/account/register_modal.html" />
+        <option value="dbtable:/8ee18502/8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3/django_migrations" />
+        <option value="$PROJECT_DIR$/static/css/style-dark.less" />
+        <option value="$PROJECT_DIR$/templates/genre_all.html" />
+        <option value="$PROJECT_DIR$/templates/author_all.html" />
+        <option value="$PROJECT_DIR$/templates/error.html" />
+        <option value="$PROJECT_DIR$/templates/genre.html" />
+        <option value="$PROJECT_DIR$/templates/base/js_include.html" />
+        <option value="$PROJECT_DIR$/templates/base/breadcrumbs.html" />
+        <option value="$PROJECT_DIR$/templates/base/alphabet_anchor_links.html" />
+        <option value="$PROJECT_DIR$/templates/reader/prev-next-links.html" />
+        <option value="$PROJECT_DIR$/templates/author.html" />
+        <option value="$PROJECT_DIR$/WebTechnology_Course/admin.py" />
+        <option value="$PROJECT_DIR$/templates/reader/prev_next_links.html" />
+        <option value="$PROJECT_DIR$/templates/base/footer.html" />
+        <option value="$PROJECT_DIR$/static/css/style.less" />
+        <option value="$PROJECT_DIR$/templates/contact.html" />
+        <option value="$PROJECT_DIR$/WebTechnology_Course/models.py" />
+        <option value="$PROJECT_DIR$/WebTechnology_Course/core/context_processors.py" />
+        <option value="$PROJECT_DIR$/templates/base/sidebar.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/WebTechnology_Course/forms.py" />
+        <option value="$PROJECT_DIR$/templates/upvote_downvote_links.html" />
+        <option value="$PROJECT_DIR$/WebTechnology_Course/views.py" />
+        <option value="$PROJECT_DIR$/templates/base/header.html" />
+        <option value="$PROJECT_DIR$/templates/edit_chapter.html" />
+        <option value="$PROJECT_DIR$/templates/book.html" />
+        <option value="$PROJECT_DIR$/templates/add_chapter.html" />
+        <option value="$PROJECT_DIR$/templates/add_book.html" />
+        <option value="$PROJECT_DIR$/templates/reader/reader.html" />
+        <option value="$PROJECT_DIR$/WebTechnology_Course/urls.py" />
+        <option value="$PROJECT_DIR$/WebTechnology_Course/settings.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-2" />
+    <option name="width" value="1604" />
+    <option name="height" value="881" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WebTechnology_Course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebTechnology_Course" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebTechnology_Course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebTechnology_Course" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebTechnology_Course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebTechnology_Course" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebTechnology_Course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebTechnology_Course" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebTechnology_Course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebTechnology_Course" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebTechnology_Course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebTechnology_Course" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="reader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebTechnology_Course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebTechnology_Course" type="462c0819:PsiDirectoryNode" />
+              <item name="WebTechnology_Course" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebTechnology_Course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebTechnology_Course" type="462c0819:PsiDirectoryNode" />
+              <item name="WebTechnology_Course" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Labs\GitHub\WebTechnology_Course\WebTechnology_Course" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Labs\GitHub\WebTechnology_Course\static\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.WebTechnology_Course">
+    <configuration name="WebTechnology_Course" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="WebTechnology_Course.settings" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WebTechnology_Course" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="192.168.0.100" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WebTechnology_Course" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WebTechnology_Course" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WebTechnology_Course" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WebTechnology_Course" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WebTechnology_Course" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="WebTechnology_Course" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WebTechnology_Course" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WebTechnology_Course" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WebTechnology_Course" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WebTechnology_Course" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WebTechnology_Course" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WebTechnology_Course" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Django server.WebTechnology_Course" />
+      <item index="1" class="java.lang.String" itemvalue="Python.manage" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54d96166-bde2-4bef-9e68-090e4ba4f275" name="Default" comment="" />
+      <created>1508161398234</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1508161398234</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-2" y="0" width="1604" height="881" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17707007" sideWeight="0.5025" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.138125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.050955415" sideWeight="0.4975" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="12" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="dbDummy://dbtable:/8ee18502/8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3/django_content_type" />
+    <entry file="dbDummy://dbtable:/8ee18502/8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3/django_admin_log" />
+    <entry file="dbDummy://dbtable:/8ee18502/8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3/auth_user_user_permissions" />
+    <entry file="dbDummy://dbtable:/8ee18502/8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3/auth_user_groups" />
+    <entry file="dbDummy://dbtable:/8ee18502/8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3/auth_permission" />
+    <entry file="dbDummy://dbtable:/8ee18502/8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3/auth_group_permissions" />
+    <entry file="dbDummy://dbtable:/8ee18502/8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3/auth_group" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/contrib/admin/sites.py" />
+    <entry file="file://$PROJECT_DIR$/static/scripts/sidebar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/contrib/auth/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/WebTechnology_Course/account/RegistrationForm.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/contrib/auth/forms.py" />
+    <entry file="file://$PROJECT_DIR$/templates/account/register_modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/8ee18502/8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3/auth_user" />
+    <entry file="dbDummy://dbtable:/8ee18502/8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3/django_migrations" />
+    <entry file="file://$PROJECT_DIR$/static/css/style-dark.less" />
+    <entry file="file://$PROJECT_DIR$/templates/base/js_include.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="74" lean-forward="false" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base/alphabet_anchor_links.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="151" lean-forward="false" selection-start-line="0" selection-start-column="151" selection-end-line="0" selection-end-column="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/account/login_modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebTechnology_Course/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/email-messages/20171211-040836-140384969483376.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/email-messages/20171017-182531-2325905645464.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebTechnology_Course/tmp/email-messages/20171017-182910-2861217320688.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebTechnology_Course/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="755" column="5" lean-forward="false" selection-start-line="755" selection-start-column="5" selection-end-line="755" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base/breadcrumbs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="54" column="64" lean-forward="false" selection-start-line="54" selection-start-column="64" selection-end-line="54" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/reader/prev_next_links.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="82" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/upvote_downvote_links.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="58" lean-forward="false" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/genre_all.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/genre.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="101" lean-forward="false" selection-start-line="20" selection-start-column="101" selection-end-line="20" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/edit_chapter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="48" lean-forward="false" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" lean-forward="true" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/book.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/author_all.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/author.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/reader/reader.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="41" lean-forward="false" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/add_book.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/add_chapter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebTechnology_Course/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3</OriginalElement>
+          <nodes>
+            <node x="464.68888888888887" y="783.9747048903879">8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:auth_group_permissions</node>
+            <node x="1188.0777777777778" y="196.0">8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:WebTechnology_Course_book</node>
+            <node x="1250.1888888888889" y="11.5">8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:WebTechnology_Course_language</node>
+            <node x="1407.1888888888889" y="541.5">8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:WebTechnology_Course_book_genre</node>
+            <node x="337.8094435075885" y="203.24957841483996">8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:sqlite_sequence</node>
+            <node x="686.6888888888889" y="749.0">8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:auth_user_groups</node>
+            <node x="173.66527777777776" y="749.0">8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:auth_user_user_permissions</node>
+            <node x="80.44182124789205" y="28.376053962900414">8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:django_migrations</node>
+            <node x="304.672849915683" y="37.119730185497474">8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:django_session</node>
+            <node x="0.0" y="530.0">8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:auth_permission</node>
+            <node x="585.4388888888889" y="553.0">8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:auth_group</node>
+            <node x="993.1888888888889" y="0.0">8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:WebTechnology_Course_author</node>
+            <node x="1494.4388888888889" y="253.5">8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:WebTechnology_Course_genre</node>
+            <node x="694.5" y="150.0">8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:auth_user</node>
+            <node x="820.1888888888889" y="530.0">8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:WebTechnology_Course_bookinstance</node>
+            <node x="949.0402777777778" y="749.0">8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:WebTechnology_Course_bookinstance_rating</node>
+            <node x="115.875" y="242.0">8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:django_content_type</node>
+            <node x="1122.1888888888889" y="530.0">8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:WebTechnology_Course_bookrating</node>
+            <node x="237.0" y="484.0">8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:django_admin_log</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:auth_user_groups" target="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:auth_user">
+              <point x="41.0" y="-50.0" />
+              <point x="809.6888888888889" y="464.0" />
+              <point x="791.5" y="464.0" />
+              <point x="0.0" y="142.0" />
+            </edge>
+            <edge source="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:auth_user_groups" target="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:auth_group">
+              <point x="-41.0" y="-50.0" />
+              <point x="727.6888888888889" y="729.0" />
+              <point x="677.6888888888889" y="729.0" />
+              <point x="30.75" y="38.5" />
+            </edge>
+            <edge source="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:WebTechnology_Course_bookinstance_rating" target="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:WebTechnology_Course_bookinstance">
+              <point x="-81.75" y="-50.0" />
+              <point x="1030.7902777777776" y="729.0" />
+              <point x="961.1888888888889" y="729.0" />
+              <point x="0.0" y="61.5" />
+            </edge>
+            <edge source="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:WebTechnology_Course_bookinstance" target="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:WebTechnology_Course_book">
+              <point x="70.5" y="-61.5" />
+              <point x="1031.6888888888889" y="464.0" />
+              <point x="1225.911111111111" y="464.0" />
+              <point x="-75.66666666666674" y="96.0" />
+            </edge>
+            <edge source="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:WebTechnology_Course_book_genre" target="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:WebTechnology_Course_genre">
+              <point x="67.75" y="-50.0" />
+              <point x="0.0" y="38.5" />
+            </edge>
+            <edge source="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:WebTechnology_Course_bookinstance_rating" target="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:WebTechnology_Course_bookrating">
+              <point x="81.75" y="-50.0" />
+              <point x="1194.2902777777776" y="729.0" />
+              <point x="1254.6888888888889" y="729.0" />
+              <point x="0.0" y="61.5" />
+            </edge>
+            <edge source="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:WebTechnology_Course_book" target="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:WebTechnology_Course_language">
+              <point x="56.75" y="-96.0" />
+              <point x="1358.3277777777778" y="125.0" />
+              <point x="1377.6888888888889" y="125.0" />
+              <point x="0.0" y="38.5" />
+            </edge>
+            <edge source="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:WebTechnology_Course_bookrating" target="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:auth_user">
+              <point x="-66.25" y="-61.5" />
+              <point x="1188.4388888888889" y="454.0" />
+              <point x="869.1" y="454.0" />
+              <point x="77.60000000000002" y="142.0" />
+            </edge>
+            <edge source="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:WebTechnology_Course_book" target="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:WebTechnology_Course_author">
+              <point x="-56.75" y="-96.0" />
+              <point x="1244.8277777777778" y="125.0" />
+              <point x="1111.6888888888889" y="125.0" />
+              <point x="0.0" y="50.0" />
+            </edge>
+            <edge source="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:auth_user_user_permissions" target="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:auth_user">
+              <point x="54.25" y="-50.0" />
+              <point x="336.41527777777776" y="729.0" />
+              <point x="464.5" y="729.0" />
+              <point x="464.5" y="464.0" />
+              <point x="752.7" y="464.0" />
+              <point x="-38.799999999999955" y="142.0" />
+            </edge>
+            <edge source="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:django_admin_log" target="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:auth_user">
+              <point x="54.25" y="-107.5" />
+              <point x="399.75" y="454.0" />
+              <point x="713.9" y="454.0" />
+              <point x="-77.60000000000002" y="142.0" />
+            </edge>
+            <edge source="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:WebTechnology_Course_bookinstance" target="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:auth_user">
+              <point x="-70.5" y="-61.5" />
+              <point x="890.6888888888889" y="464.0" />
+              <point x="830.3" y="464.0" />
+              <point x="38.799999999999955" y="142.0" />
+            </edge>
+            <edge source="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:auth_permission" target="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:django_content_type">
+              <point x="0.0" y="-61.5" />
+              <point x="108.5" y="464.0" />
+              <point x="157.875" y="464.0" />
+              <point x="-42.0" y="50.0" />
+            </edge>
+            <edge source="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:auth_group_permissions" target="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:auth_permission">
+              <point x="-50.5" y="-50.0" />
+              <point x="515.1888888888889" y="719.0" />
+              <point x="162.75" y="719.0" />
+              <point x="54.25" y="61.5" />
+            </edge>
+            <edge source="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:WebTechnology_Course_bookrating" target="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:WebTechnology_Course_book">
+              <point x="66.25" y="-61.5" />
+              <point x="1320.9388888888889" y="464.0" />
+              <point x="1301.5777777777778" y="464.0" />
+              <point x="0.0" y="96.0" />
+            </edge>
+            <edge source="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:WebTechnology_Course_book_genre" target="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:WebTechnology_Course_book">
+              <point x="-67.75" y="-50.0" />
+              <point x="1474.9388888888889" y="464.0" />
+              <point x="1377.2444444444445" y="464.0" />
+              <point x="75.66666666666674" y="96.0" />
+            </edge>
+            <edge source="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:auth_user_user_permissions" target="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:auth_permission">
+              <point x="-54.25" y="-50.0" />
+              <point x="227.91527777777776" y="729.0" />
+              <point x="54.25" y="729.0" />
+              <point x="-54.25" y="61.5" />
+            </edge>
+            <edge source="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:auth_group_permissions" target="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:auth_group">
+              <point x="50.5" y="-50.0" />
+              <point x="-30.75" y="38.5" />
+            </edge>
+            <edge source="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:django_admin_log" target="8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:django_content_type">
+              <point x="-54.25" y="-107.5" />
+              <point x="291.25" y="464.0" />
+              <point x="241.875" y="464.0" />
+              <point x="42.0" y="50.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.6718418514946962" x="357.0" y="299.0" />
+          <SelectedNodes>
+            <node>8b09cc0c-f187-4ed0-9a71-c9f2f8b199b3.TABLE:django_admin_log</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebTechnology_Course/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebTechnology_Course/core/context_processors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebTechnology_Course/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="249" column="30" lean-forward="false" selection-start-line="249" selection-start-column="30" selection-end-line="249" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+            <element signature="e#731#818#0" expanded="false" />
+            <element signature="e#1970#2636#0" expanded="false" />
+            <element signature="e#2664#2761#0" expanded="false" />
+            <element signature="e#2804#5349#0" expanded="false" />
+            <element signature="e#5395#6765#0" expanded="false" />
+            <element signature="e#6812#7609#0" expanded="false" />
+            <element signature="e#7637#8366#0" expanded="false" />
+            <element signature="e#8393#9209#0" expanded="false" />
+            <element signature="e#10462#11100#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebTechnology_Course/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#106#381#0" expanded="false" />
+            <element signature="e#567#975#0" expanded="false" />
+            <element signature="e#752#818#0" expanded="false" />
+            <element signature="e#1246#2293#0" expanded="false" />
+            <element signature="e#2333#3172#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebTechnology_Course/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

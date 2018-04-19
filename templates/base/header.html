@@ -1,0 +1,17 @@
+<header class="header">
+	<nav class="navbar navbar-static-top">
+		<a href="/" class="logo"><span class="glyphicon glyphicon-home"></span><span class="logo-text">На главную</span></a>
+		<a href="#" class="sidebar-toggle"><span></span></a>
+		<div class="nav-custom">
+			<ul class="nav navbar-nav">
+				{% if not user.is_authenticated %}
+				    <li class=""><a href="#" data-toggle="modal" data-target="#loginModal"><span class="glyphicon glyphicon-user"></span> Вход</a></li>
+				    <li class=""><a href="#"  data-toggle="modal" data-target="#registerModal"><span class="glyphicon glyphicon-briefcase"></span> Регистрация</a></li>
+				{% else %}
+				    <li class=""><a href="#"><span class="glyphicon glyphicon-user"></span> {{ user.username }}</a></li>
+                    <li class=""><a href="/logout/"><span class="glyphicon glyphicon-briefcase"></span> Выход</a></li>
+				{% endif %}
+			</ul>
+		</div>
+    </nav>
+</header>

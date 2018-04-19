@@ -1,0 +1,81 @@
+<aside class="main-sidebar">
+<ul>
+	<li>
+		<a href="/author">
+			<span class="glyphicon glyphicon-user link-glyphicon"></span><span class="link-text">Все авторы</span>
+		</a>
+		<div class="sidemenu-min-header"><a href="/author">Все авторы</a></div>
+	</li>
+    <li>
+		<a href="/genre">
+			<span class="glyphicon glyphicon-book link-glyphicon"></span><span class="link-text">Все жанры</span>
+		</a>
+		<div class="sidemenu-min-header"><a href="/genre">Все жанры</a></div>
+	</li>
+    {% if user.is_authenticated %}
+    <li>
+		<a href="/book/add">
+			<span class="glyphicon glyphicon-plus link-glyphicon"></span><span class="link-text">Добавить книгу</span>
+		</a>
+		<div class="sidemenu-min-header"><a href="/book/add">Добавить книгу</a></div>
+	</li>
+    {% endif %}
+	{% comment %}<li>
+		<a href="#">
+			<span class="glyphicon glyphicon-list-alt link-glyphicon"></span><span class="link-text">item2</span>
+		</a>
+		<div class="sidemenu-min-header"><a href="#">item2</a></div>
+	</li>
+	<li>
+		<a href="#">
+			<span class="glyphicon glyphicon-lock link-glyphicon"></span><span class="link-text">item3</span>
+		</a>
+		<div class="sidemenu-min-header"><a href="#">item3</a></div>
+	</li>
+	<li>
+		<a href="#">
+			<span class="glyphicon glyphicon-cog link-glyphicon"></span><span class="link-text">item4</span>
+		</a>
+		<div class="sidemenu-min-header"><a href="#">item4</a></div>
+	</li>
+	<li>
+		<a href="#">
+			<span class="glyphicon glyphicon-envelope link-glyphicon"></span><span class="link-text">item5</span>
+		</a>
+		<div class="sidemenu-min-header"><a href="#">item5</a></div>
+	</li>
+	<li>
+		<a href="#">
+			<span class="glyphicon glyphicon-briefcase link-glyphicon"></span><span class="link-text">item6</span><span class="caret"></span>
+		</a>
+		<ul class="submenu-dropdown">
+			<div class="dropdown-content">
+				<li class="submenu-dropdown-header"><a href="#">item6</a></li>
+				<li><a href="#1">dropdown-item 1</a></li>
+				<li><a href="#2">dropdown-item 2</a></li>
+				<li>
+					<a href="#3">dropdown-item 3</a>
+					<ul class="submenu-dropdown">
+						<div class="dropdown-content">
+							<li><a href="#1">dropdown-item 1</a></li>
+							<li><a href="#2">dropdown-item 2</a></li>
+							<li><a href="#3">dropdown-item 3</a></li>
+						</div>
+					</ul>
+				</li>
+				<li><a href="#4">dropdown-item 4</a>
+			</div>
+		</ul>
+	</li>{% endcomment %}
+	<li>
+		<a href="/contact">
+			<span class="glyphicon glyphicon-envelope link-glyphicon"></span><span class="link-text">Обратная связь</span>
+		</a>
+		<div class="sidemenu-min-header"><a href="/contact">Обратная связь</a></div>
+	</li>
+</ul>
+<div class="back-to-top-btn" style="display: none;">
+	<span class="glyphicon glyphicon-chevron-up"></span>
+	<p>вверх</p>
+</div>
+</aside>

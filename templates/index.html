@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+{% block title %}Главная{% endblock %}
+{% block meta-keywords %}<meta name="keywords" content="">{% endblock %}
+{% block meta-description %}<meta name="description" content="">{% endblock %}
+{% block meta-author %}<meta name="author" content="dalinar">{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-offset-4 col-md-4">
+            <h2 style="text-align: center">Случайные книги</h2>
+        </div>
+    </div>
+    <div class="row">
+    {% for book in books %}
+        <div class="col-md-4">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="h4" style="text-align: center;">{{ book }} </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-5 col-md-4"><p style="text-align: right"><img src="{{ book.cover.url }}" alt="cover" style="max-height: 150px; width: auto !important; "></p></div>
+                <div class="col-xs-7 col-md-8">
+                    <b>Автор: </b><a href="{{ book.author.get_absolute_url }}">{{ book.author }} </a><br>
+                    <b>Жанры: </b>{% for genre in book.genre.all %}<a href="{{ genre.get_absolute_url }}">{{ genre }}</a>; {% endfor %}<br>
+                    <b>Оценка: </b> {{ book.get_rating }} <br>
+                    <a data-toggle="tooltip" data-placement="bottom" title="" href="#" data-original-title="{{ book.description }}">Описание</a><br>
+                    <a href="{{ book.get_absolute_url }}">Читать</a>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+    <br>
+    <hr>
+    <div class="row">
+        <div class="col-md-offset-4 col-md-4">
+            <h2 style="text-align: center">Последние добавленные книги</h2>
+        </div>
+    </div>
+    <div class="row">
+    {% for book in new_books %}
+        <div class="col-md-4">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="h4" style="text-align: center;">{{ book }} </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-5 col-md-4"><p style="text-align: right"><img src="{{ book.cover.url }}" alt="cover" style="max-height: 150px; width: auto !important; "></p></div>
+                <div class="col-xs-7 col-md-8">
+                    <b>Автор: </b><a href="{{ book.author.get_absolute_url }}">{{ book.author }} </a><br>
+                    <b>Жанры: </b>{% for genre in book.genre.all %}<a href="{{ genre.get_absolute_url }}">{{ genre }}</a>; {% endfor %}<br>
+                    <b>Оценка: </b> {{ book.get_rating }} <br>
+                    <a data-toggle="tooltip" data-placement="top" title="" href="#" data-original-title="{{ book.description }}">Описание</a><br>
+                    <a href="{{ book.get_absolute_url }}">Читать</a>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+{% endblock %}
+
+{% block jquery %}
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+{% endblock %}

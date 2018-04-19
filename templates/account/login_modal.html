@@ -1,0 +1,33 @@
+{% if not user.is_authenticated %}
+	<div class="modal fade" id="loginModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Закрыть">
+						<span aria-hidden="true">&times;</span>
+						<span class="sr-only">Закрыть</span>
+					</button>
+					<h4 class="modal-title">Войти</h4>
+				</div>
+				<div class="modal-body">
+					<form method="post" action="/login/">
+						<div class="group">
+							<input type="text" required id="login_username" name="login_username">
+							<label>Логин</label>
+						</div>
+						<div class="group">
+							<input type="password" required id="login_password" name="login_password">
+							<label>Пароль</label>
+						</div>
+                        <input type="text" id="login_return_url" name="login_return_url" class="hidden" value={{ request.path }}>
+                        <button type="submit" class="form-control">Войти</button>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<a href="#" class="small cancel"  data-dismiss="modal">Отмена</a>
+					<a href="#" class="small">Забыли пароль?</a>
+				</div>
+			</div><!-- end modal-content -->
+		</div><!-- end modal-dialog -->
+	</div><!-- end login modal -->
+{% endif %}

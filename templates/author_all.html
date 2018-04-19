@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Все авторы{% endblock %}
+{% block content %}
+    <p class="h2">Все авторы</p>
+    {% include "base/alphabet_anchor_links.html" %}
+    {% if authors %}
+        <table class="table table-hover table-striped">
+            <thead>
+                <tr>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for author in authors %}
+                {% ifchanged author.get_first_letter %}<tr><td><h4 id="{{ author.get_first_letter }}">{{ author.get_first_letter }}</h4></td></tr>{% endifchanged %}
+                <tr>
+                    <td><a href="{{ author.get_absolute_url }}">{{ author }}</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% endif %}
+{% endblock %}

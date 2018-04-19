@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% block meta-keywords %}<meta name="keywords" content="">{% endblock %}
+{% block meta-description %}<meta name="description" content="">{% endblock %}
+{% block meta-author %}<meta name="author" content="dalinar">{% endblock %}
+{% block title %}book{% endblock %}
+{% block content %}
+    <p class="h2">{{ book }}</p>
+    <div class="row">
+        <div class="col-xs-4 col-md-3"><p style="text-align: center"><img src="{{ book.cover.url }}" alt="cover" style="height: auto; max-width: 100% !important; "></p></div>
+        <div class="col-xs-8 col-md-9">
+            <b>Автор: </b><a href="{{ book.author.get_absolute_url }}">{{ book.author }} </a><br>
+            <b>Жанры: </b>{% for genre in book.genre.all %}<a href="{{ genre.get_absolute_url }}">{{ genre }}</a>; {% endfor %}<br>
+            <b>Оценка: </b> {{ book.get_rating }} {% include 'upvote_downvote_links.html' %}<br>
+            <b>Описание: </b> {{ book.description }}<br>
+        </div>
+    </div>
+    {% if chapters %}
+        <table class="chapters-table table table-hover table-striped">
+            <thead>
+                <tr>
+                    <th>№</th>
+                    <th>Название</th>
+                    <th>Добавлено</th>
+                    <th>Cкачать</th>
+                    {% if user == book.uploaded_by_user %}<th>Действие</th>{% endif %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for chapter in chapters %}
+                <tr>
+                    <td>{{ chapter.chapter_number }}</td>
+                    <td><a href="{{ chapter.get_absolute_url }}">{{ chapter.title }}</a></td>
+                    <td>{{ chapter.upload_date }}</td>
+                    <td>txt fb2</td>
+                    {% if user == book.uploaded_by_user %}<td><a href="{{ chapter.get_edit_url }}">Редактировать</a>{% endif %}
+                </tr>
+                {% endfor %}
+                {% if user == book.uploaded_by_user %}
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><a href="{{ book.get_absolute_url }}/addchapter">Добавить</a></td>
+                {% endif %}
+            </tbody>
+        </table>
+    {% endif %}
+    {% if chapters_null %}
+        <p class="h4">{{ chapters_null }}. {% if user == book.uploaded_by_user %}<a href="{{ book.get_absolute_url }}/addchapter">Добавить?</a> {% endif %}</p>
+    {% endif %}
+{% endblock %}
